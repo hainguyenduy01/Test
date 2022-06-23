@@ -1,0 +1,190 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	width: 80%;
+	margin: 50px auto;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+.logo h2 {
+	font-size: 30px;
+	font-weight: 800;
+	color: rgb(10, 10, 134);
+}
+nav li {
+	list-style: none;
+	display: inline-block;
+}
+.main-nav {
+	transition: all 0.5s;
+}
+nav li a {
+	text-decoration: none;
+	margin: 15px 30px;
+	padding: 5px 10px;
+	color: rgb(10, 10, 134);
+	transition: all 0.5s;
+	border-radius: 15px;
+}
+nav li a:hover {
+	background-color: rgb(135, 219, 135);
+}
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+body {
+	background-image: url(./image/image12.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	overflow-x: hidden;
+	height: 100vh;
+}
+i.icon {
+	font-size: 200%;
+	color: rgb(10, 10, 134);
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	display: none;
+	cursor: pointer;
+}
+.doanvan {
+	margin-top: 220px;
+	width: 50%;
+}
+.doanvan h2 {
+	color: rgb(10, 10, 134);
+	font-weight: 800;
+}
+.doanvan h3 {
+	color: rgb(239, 129, 85);
+}
+.doanvan p {
+	margin-top: 25px;
+	color: rgb(10, 10, 134);
+}
+.doanvan .btn {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 5px 10px;
+	background-color: rgb(119, 119, 240);
+	color: rgb(30, 30, 250);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+	.logo h2 {
+		margin-left: 50px;
+	}
+	body {
+		height: 900px;
+	}
+	main {
+		margin-top: 350px;
+	}
+	.doanvan {
+		text-align: center;
+		width: 80%;
+		margin: 200px auto;
+	}
+	i.icon {
+		display: block;
+		margin-right: 30px;
+	}
+	.main-nav {
+		display: none;
+	}
+	.main-nav {
+		text-align: right;
+		margin-top: 40px;
+	}
+	.container {
+		width: 90vw;
+	}
+	nav li {
+		padding: 10px;
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	main {
+		margin-top: 350px;
+	}
+	body {
+		height: 900px;
+	}
+	.doanvan {
+		text-align: center;
+		width: 80%;
+		margin: 200px auto;
+	}
+	.logo h2 {
+		margin-left: 50px;
+	}
+	i.icon {
+		display: block;
+		margin-right: 30px;
+	}
+	.main-nav {
+		display: none;
+	}
+	.main-nav {
+		text-align: right;
+		margin-top: 40px;
+	}
+	.container {
+		width: 90vw;
+	}
+	nav li {
+		padding: 10px;
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	main {
+		margin-top: 350px;
+	}
+	body {
+		height: 900px;
+	}
+	.doanvan {
+		text-align: center;
+		width: 80%;
+		margin: 200px auto;
+	}
+	.logo h2 {
+		margin-left: 50px;
+	}
+	i.icon {
+		display: block;
+		margin-right: 30px;
+	}
+	.main-nav {
+		display: none;
+	}
+	.main-nav {
+		text-align: right;
+		margin-top: 40px;
+	}
+	.container {
+		width: 90vw;
+	}
+	nav li {
+		padding: 10px;
+		display: block;
+	}
+}
